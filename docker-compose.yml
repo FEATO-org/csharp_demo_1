@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/dotnet:0-7.0
+  voicebox:
+    image: voicevox/voicevox_engine:nvidia-ubuntu20.04-latest
